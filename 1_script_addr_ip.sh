@@ -79,4 +79,5 @@ nmcli con up "$connection" 2>> "$logFile"
 
 log "Exécution complétée"
 
+# On quitte le programme
 exit 0
